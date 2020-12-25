@@ -1,3 +1,6 @@
+CC := g++ -Wall -Werror
+FLAGS := -std=c99
+FLAG := -std=c11
 LDFLAGS=-ldl
 
 .PHONY: clean
