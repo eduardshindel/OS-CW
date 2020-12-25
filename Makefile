@@ -19,5 +19,5 @@ dlib/help.o: dlib/h.c
 clean:
 	rm serv client
 
-serv: builds/serv
+serv: src/server.c
 	gcc src/server.c -L./dlib/libhelp.so -o serv -ldl
